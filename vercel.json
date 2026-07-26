@@ -1,0 +1,6 @@
+{
+  "outputDirectory": "out",
+  "rewrites": [
+    { "source": "/((?!_next/static|icons|favicon|manifest|sw).*)", "destination": "/index.html" }
+  ]
+}
